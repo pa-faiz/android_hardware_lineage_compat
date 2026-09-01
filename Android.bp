@@ -626,7 +626,7 @@ cc_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libprotobuf-cpp-full-3.9.1-vendorcompat",
+    name: "libprotobuf-cpp-full-3.9.1-v2-vendorcompat",
     stem: "libprotobuf-cpp-full-3.9.1",
     ignore_max_page_size: true,
     system_ext_specific: true,
@@ -650,7 +650,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libprotobuf-cpp-lite-3.9.1-vendorcompat",
+    name: "libprotobuf-cpp-lite-3.9.1-v2-vendorcompat",
     stem: "libprotobuf-cpp-lite-3.9.1",
     ignore_max_page_size: true,
     system_ext_specific: true,
